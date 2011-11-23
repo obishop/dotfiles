@@ -1,4 +1,4 @@
-names=(vim vimrc bash_profile gitconfig)
+names=(vim vimrc bash_profile bashrc gitconfig)
 
 echo "Installing dotfiles..."
 
