@@ -9,6 +9,8 @@ Bundle 'gmarik/vundle'
 
 " my Bundles
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'wincent/Command-T'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on     " required! 
 
@@ -27,6 +29,10 @@ au BufNewFile,BufRead .localrc set filetype=sh
 
 " Showing whitespace
 set list listchars=tab:\ \ ,trail:·
+
+" Highlight past 80 characters
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
 " General indentation settings
 
