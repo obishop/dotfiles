@@ -5,6 +5,8 @@ fi
 
 export EDITOR=/usr/bin/vim
 
+export PATH=$PATH:/opt/bin:/opt/sbin
+
 alias g="git"
 
 RED="\[\033[0;31m\]"
