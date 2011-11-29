@@ -1,4 +1,4 @@
-names=(vim vimrc bash_profile bashrc gitconfig)
+names=(vim vimrc bash_profile bashrc gitconfig tmux.conf)
 
 echo "Installing dotfiles..."
 
