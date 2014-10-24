@@ -1,17 +1,18 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle-- required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " my Bundles
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'wincent/Command-T'
-Bundle 'scrooloose/nerdtree'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'wincent/Command-T'
+Plugin 'scrooloose/nerdtree'
 
+call vundle#end()
 filetype plugin indent on     " required! 
 
 set background=dark

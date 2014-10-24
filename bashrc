@@ -3,6 +3,8 @@ if [ -f ~/.localrc ]; then
   source ~/.localrc
 fi
 
+source ~/.git-prompt.sh
+
 export EDITOR=/usr/bin/vim
 
 export PATH=$PATH:/opt/bin:/opt/sbin
