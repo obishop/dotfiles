@@ -4,8 +4,10 @@ an attempt at my own dotfiles thingy...
 2. Download Pathogen: https://github.com/tpope/vim-pathogen
 3. Download git prompt:
 
-   curl -o ~/.git-prompt.sh \
-      https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+```
+curl -o ~/.git-prompt.sh \
+    https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+```
 
 4. Install bash-completion
 
