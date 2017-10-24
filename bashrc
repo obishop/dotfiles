@@ -17,8 +17,8 @@ GREEN="\[\033[0;32m\]"
 BLUE="\[\033[0;36m\]"
 WHITE="\[\033[0;00m\]"
 
-if [ -f /opt/local/etc/bash_completion ]; then
-  . /opt/local/etc/bash_completion
+if [ -f /usr/local/etc/bash_completion ]; then
+  . /usr/local/etc/bash_completion
 fi
 
 # Prompt

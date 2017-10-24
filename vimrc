@@ -1,3 +1,6 @@
+" Map Semicolon to : for faster command execution
+nmap ; :
+
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -5,7 +8,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle-- required! 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " my Bundles
 Plugin 'altercation/vim-colors-solarized'
@@ -61,8 +64,6 @@ set wildmenu
 let mapleader=","
 let maplocalleader=","
 
-" Map Semicolon to : for faster command execution
-nmap ; :
 
 " \ and | switch between split screens
 nmap \ <C-w><C-w>
