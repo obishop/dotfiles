@@ -11,7 +11,11 @@ curl -o ~/.git-prompt.sh \
 
 4. Install bash-completion
 
-   brew install git bash-completion
+```
+brew install git bash-completion
+```
 
 5. Create links (call from dotfiles directory)
-   . install.sh
+```
+. install.sh
+```
