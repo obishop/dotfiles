@@ -1,6 +1,6 @@
 an attempt at my own dotfiles thingy...
 
-1. Download Vundle: https://github.com/gmarik/Vundle.vim
+1. Download Vundle: https://github.com/gmarik/Vundle.vim & Install plugins `vim +PluginInstall +qall`
 2. Download Pathogen: https://github.com/tpope/vim-pathogen
 3. Download git prompt:
 
